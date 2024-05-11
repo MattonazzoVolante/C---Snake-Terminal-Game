@@ -7,7 +7,6 @@ void saveSystem::saveInBinaryFile(int dato){
     if(dat.fail())
 		return;
     
-    cout<<dato;
 	dat.write((char*) &dato,sizeof(int));
     dat.close();
 }
@@ -23,7 +22,6 @@ int saveSystem::readBinaryFile(){
     int dato = 0;
     dat.read((char*)  &dato,sizeof(int));
     dat.close();
-    cout<<dato;
     
     return dato;
 }

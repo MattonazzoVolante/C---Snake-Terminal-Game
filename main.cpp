@@ -20,11 +20,8 @@ int main(int argc, char** argv) {
 	
 	miglior_punteggio = saveSystem::readBinaryFile();
 	
-		
-		system("pause");
-	
 	do{
-		Sleep(300);
+		Sleep(200);
 		system("cls");
 		mela.appleManager(serpente,DIMX,DIMY);
 		serpente.updateCorpoSerpente();

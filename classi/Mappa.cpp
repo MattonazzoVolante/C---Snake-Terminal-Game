@@ -34,7 +34,7 @@ void Mappa::makeMap(Serpente serpente,Apple apple,vector<Corpo_serpente> corpo_S
 }
 
 void Mappa::printMap(int punteggio, int migliorPunteggio){
-	cout<<"Punteggio :  "<< punteggio << "   || ||   " <<" miglior punteggio: "<< migliorPunteggio<<endl;
+	cout<<"Points :  "<< punteggio << "   || ||   " <<"Best: "<< migliorPunteggio<<endl;
 	for(int i= 0;i<DIMX+2;i++)
 		cout<<border;
 		

@@ -1,8 +1,9 @@
 #include "headers/Apple.h"
 
 Apple::Apple(int iterationDelay){
-	setX(5);
-	setY(5);
+	setX(0);
+	setY(0);
+	active = false;
 	this->iterationDelay = iterationDelay;
 	currentIterations = 0;
 }
